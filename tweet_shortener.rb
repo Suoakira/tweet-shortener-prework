@@ -30,3 +30,9 @@ def word_substituter(tweet_string)
   short_array.join(" ")
 end
   
+def selective_tweet_shortener(tweet_string)
+  if tweet_string < 140
+    tweet_string
+  else
+    word_substituter(tweet_string)
+end
