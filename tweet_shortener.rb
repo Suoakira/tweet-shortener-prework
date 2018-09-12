@@ -22,8 +22,7 @@ def word_substituter(tweet_string)
   d_keys = dictionary.keys 
   array.each_with_index do |word, index|
     if d_keys.include?(word)
-      
-      short_array.push(word)
+      short_array.push(dictionary[word])
     else
       short_array.push(array[index])
     end
