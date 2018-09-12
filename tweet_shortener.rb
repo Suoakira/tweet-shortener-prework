@@ -48,5 +48,6 @@ end
 
 def bulk_tweet_shortener(tweet_string_array)
   tweet_string = tweet_string_array.split(" ")
+  binding.pry
   selective_tweet_shortener(tweet_string)
 end
