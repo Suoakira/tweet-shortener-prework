@@ -22,7 +22,7 @@ def word_substituter(tweet_string)
   d_keys = dictionary.keys 
   array.each_with_index do |word, index|
     if d_keys.include?(word.downcase)
-      short_array.push(dictionary[word])
+      short_array.push(dictionary[word.downcase])
     else
       short_array.push(array[index])
     end
