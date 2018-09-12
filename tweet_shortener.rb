@@ -47,7 +47,7 @@ def shortened_tweet_truncator(tweet_string)
 end
 
 def bulk_tweet_shortener(tweet_string_array)
-  tweet_string_array.each do |string|
+  tweet_string_array.collect do |string|
    puts word_substituter(string)
  end
 end
