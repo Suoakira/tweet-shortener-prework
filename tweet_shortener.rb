@@ -47,6 +47,6 @@ def shortened_tweet_truncator(tweet_string)
 end
 
 def bulk_tweet_shortener(tweet_string_array)
-  tweet_string = tweet_string.split(" ")
+  tweet_string = tweet_string_array.split(" ")
   selective_tweet_shortener(tweet_string)
 end
