@@ -48,7 +48,6 @@ end
 
 def bulk_tweet_shortener(tweet_string_array)
   tweet_string_array.each do |string|
-  binding.pry
   selective_tweet_shortener(string)
 end
 end
