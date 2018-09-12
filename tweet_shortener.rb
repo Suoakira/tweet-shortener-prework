@@ -48,6 +48,6 @@ end
 
 def bulk_tweet_shortener(tweet_string_array)
   tweet_string_array.collect do |string|
-   puts selective_tweet_shortener(string)
+   puts word_substituter(string)
  end
 end
