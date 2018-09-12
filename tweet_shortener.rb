@@ -24,7 +24,6 @@ def word_substituter(tweet_string)
     if d_keys.include?(word)
       
       short_array.push(word)
-      binding.pry
     else
       short_array.push(array[index])
     end
