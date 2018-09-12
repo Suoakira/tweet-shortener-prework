@@ -51,3 +51,4 @@ def bulk_tweet_shortener(tweet_string_array)
   binding.pry
   selective_tweet_shortener(string)
 end
+end
